@@ -1,0 +1,35 @@
+program { 
+int x, y; 
+bool w; 
+float z; 
+x=8; // comentario 1 
+y=6; 
+z=3; 
+w=false; 
+write x+y; 
+if(x<10)then{ 
+y=y-1; 
+x=x+2; 
+} fi 
+/* comentario 
+2 */ 
+}
+
+//////////////////////////////////////////////////////
+program { 
+int x, y; 
+bool w; 
+float zq; 
+x=10; // comentario 1 
+y=12; 
+z=8.9; 
+w=true; 
+write x+y; 
+if(x<10)then{ 
+y=y+3; 
+x=x-5; 
+} fi //fin if
+/* comentario 
+2 */ 
+w=false;
+}

@@ -1,0 +1,1164 @@
+{
+    "Lexico": [
+        "Token (1,8): program",
+        "Token (1,10): {",
+        "Token (2,4): int",
+        "Token (2,7): x",
+        "Token (2,8): ,",
+        "Token (2,11): y",
+        "Token (2,12): ,",
+        "Token (2,15): a",
+        "Token (2,16): ;",
+        "Token (3,5): bool",
+        "Token (3,8): w",
+        "Token (3,9): ;",
+        "Token (4,6): float",
+        "Token (4,9): z",
+        "Token (4,10): ;",
+        "Token (5,2): x",
+        "Token (5,4): =",
+        "Token (5,6): 8",
+        "Token (5,7): ;",
+        "Token (6,2): y",
+        "Token (6,4): =",
+        "Token (6,6): 6",
+        "Token (6,7): ;",
+        "Token (7,2): z",
+        "Token (7,4): =",
+        "Token (7,8): 3.3",
+        "Token (7,9): ;",
+        "Token (8,2): w",
+        "Token (8,4): =",
+        "Token (8,10): false",
+        "Token (8,11): ;",
+        "Token (9,2): w",
+        "Token (9,4): =",
+        "Token (9,6): 2",
+        "Token (9,7): ;",
+        "Token (10,2): a",
+        "Token (10,4): =",
+        "Token (10,8): 3.3",
+        "Token (10,9): ;",
+        "Token (12,6): write",
+        "Token (12,9): x",
+        "Token (12,10): +",
+        "Token (12,12): y",
+        "Token (12,13): ;",
+        "Token (13,2): a",
+        "Token (13,4): =",
+        "Token (13,6): 6",
+        "Token (13,7): *",
+        "Token (13,9): 3",
+        "Token (13,10): ;",
+        "Token (14,2): a",
+        "Token (14,4): =",
+        "Token (14,6): a",
+        "Token (14,8): /",
+        "Token (14,10): 2",
+        "Token (14,11): ;",
+        "Token (16,3): if",
+        "Token (16,5): (",
+        "Token (16,7): x",
+        "Token (16,9): <",
+        "Token (16,12): 10",
+        "Token (16,16): or",
+        "Token (16,19): y",
+        "Token (16,21): ==",
+        "Token (16,23): 6",
+        "Token (16,24): )",
+        "Token (16,30): then",
+        "Token (16,32): {",
+        "Token (17,2): y",
+        "Token (17,4): =",
+        "Token (17,6): y",
+        "Token (17,7): -",
+        "Token (17,9): 1",
+        "Token (17,10): ;",
+        "Token (18,2): x",
+        "Token (18,4): =",
+        "Token (18,6): x",
+        "Token (18,7): +",
+        "Token (18,9): 2",
+        "Token (18,10): ;",
+        "Token (19,6): while",
+        "Token (19,8): (",
+        "Token (19,11): y",
+        "Token (19,13): >=",
+        "Token (19,15): 0",
+        "Token (19,20): and",
+        "Token (19,23): a",
+        "Token (19,25): ==",
+        "Token (19,28): 11",
+        "Token (19,29): )",
+        "Token (19,31): {",
+        "Token (20,3): a",
+        "Token (20,5): =",
+        "Token (20,7): a",
+        "Token (20,8): +",
+        "Token (20,10): 2",
+        "Token (20,11): ;",
+        "Token (21,3): y",
+        "Token (21,5): =",
+        "Token (21,9): 10",
+        "Token (21,10): *",
+        "Token (21,12): 5",
+        "Token (21,13): ;",
+        "Token (22,3): w",
+        "Token (22,5): =",
+        "Token (22,10): true",
+        "Token (22,11): ;",
+        "Token (23,1): }",
+        "Token (24,1): }",
+        "Token (24,5): fi",
+        "Token (27,3): do",
+        "Token (27,5): {",
+        "Token (28,2): y",
+        "Token (28,4): =",
+        "Token (28,6): y",
+        "Token (28,7): -",
+        "Token (28,9): 1",
+        "Token (28,10): ;",
+        "Token (29,1): }",
+        "Token (29,8): until",
+        "Token (29,10): (",
+        "Token (29,12): y",
+        "Token (29,14): >=",
+        "Token (29,16): 3",
+        "Token (29,17): )",
+        "Token (29,18): ;",
+        "Token (31,1): }",
+        "Token (32,0): EOF"
+    ],
+    "Sintactico": [
+        "Match: program (1,8)",
+        "Match: { (1,10)",
+        "Match: int (2,4)",
+        "Match: x (2,7)",
+        "Match: , (2,8)",
+        "Match: y (2,11)",
+        "Match: , (2,12)",
+        "Match: a (2,15)",
+        "Match: ; (2,16)",
+        "Match: bool (3,5)",
+        "Match: w (3,8)",
+        "Match: ; (3,9)",
+        "Match: float (4,6)",
+        "Match: z (4,9)",
+        "Match: ; (4,10)",
+        "Match: x (5,2)",
+        "Match: = (5,4)",
+        "Match: 8 (5,6)",
+        "Match: ; (5,7)",
+        "Match: y (6,2)",
+        "Match: = (6,4)",
+        "Match: 6 (6,6)",
+        "Match: ; (6,7)",
+        "Match: z (7,2)",
+        "Match: = (7,4)",
+        "Match: 3.3 (7,8)",
+        "Match: ; (7,9)",
+        "Match: w (8,2)",
+        "Match: = (8,4)",
+        "Match: false (8,10)",
+        "Match: ; (8,11)",
+        "Match: w (9,2)",
+        "Match: = (9,4)",
+        "Match: 2 (9,6)",
+        "Match: ; (9,7)",
+        "Match: a (10,2)",
+        "Match: = (10,4)",
+        "Match: 3.3 (10,8)",
+        "Match: ; (10,9)",
+        "Match: write (12,6)",
+        "Match: x (12,9)",
+        "Match: + (12,10)",
+        "Match: y (12,12)",
+        "Match: ; (12,13)",
+        "Match: a (13,2)",
+        "Match: = (13,4)",
+        "Match: 6 (13,6)",
+        "Match: * (13,7)",
+        "Match: 3 (13,9)",
+        "Match: ; (13,10)",
+        "Match: a (14,2)",
+        "Match: = (14,4)",
+        "Match: a (14,6)",
+        "Match: / (14,8)",
+        "Match: 2 (14,10)",
+        "Match: ; (14,11)",
+        "Match: if (16,3)",
+        "Match: ( (16,5)",
+        "Match: x (16,7)",
+        "Match: < (16,9)",
+        "Match: 10 (16,12)",
+        "Match: or (16,16)",
+        "Match: y (16,19)",
+        "Match: == (16,21)",
+        "Match: 6 (16,23)",
+        "Match: ) (16,24)",
+        "Match: then (16,30)",
+        "Match: { (16,32)",
+        "Match: y (17,2)",
+        "Match: = (17,4)",
+        "Match: y (17,6)",
+        "Match: - (17,7)",
+        "Match: 1 (17,9)",
+        "Match: ; (17,10)",
+        "Match: x (18,2)",
+        "Match: = (18,4)",
+        "Match: x (18,6)",
+        "Match: + (18,7)",
+        "Match: 2 (18,9)",
+        "Match: ; (18,10)",
+        "Match: while (19,6)",
+        "Match: ( (19,8)",
+        "Match: y (19,11)",
+        "Match: >= (19,13)",
+        "Match: 0 (19,15)",
+        "Match: and (19,20)",
+        "Match: a (19,23)",
+        "Match: == (19,25)",
+        "Match: 11 (19,28)",
+        "Match: ) (19,29)",
+        "Match: { (19,31)",
+        "Match: a (20,3)",
+        "Match: = (20,5)",
+        "Match: a (20,7)",
+        "Match: + (20,8)",
+        "Match: 2 (20,10)",
+        "Match: ; (20,11)",
+        "Match: y (21,3)",
+        "Match: = (21,5)",
+        "Match: 10 (21,9)",
+        "Match: * (21,10)",
+        "Match: 5 (21,12)",
+        "Match: ; (21,13)",
+        "Match: w (22,3)",
+        "Match: = (22,5)",
+        "Match: true (22,10)",
+        "Match: ; (22,11)",
+        "Match: } (23,1)",
+        "Match: } (24,1)",
+        "Match: fi (24,5)",
+        "Match: do (27,3)",
+        "Match: { (27,5)",
+        "Match: y (28,2)",
+        "Match: = (28,4)",
+        "Match: y (28,6)",
+        "Match: - (28,7)",
+        "Match: 1 (28,9)",
+        "Match: ; (28,10)",
+        "Match: } (29,1)",
+        "Match: until (29,8)",
+        "Match: ( (29,10)",
+        "Match: y (29,12)",
+        "Match: >= (29,14)",
+        "Match: 3 (29,16)",
+        "Match: ) (29,17)",
+        "Match: ; (29,18)",
+        "Match: } (31,1)"
+    ],
+    "Semantico": [
+        "Variable añadida a la tabla de simbolos { a - No inicializado }",
+        "Variable añadida a la tabla de simbolos { y - No inicializado }",
+        "Variable añadida a la tabla de simbolos { x - No inicializado }",
+        "Variable añadida a la tabla de simbolos { w - No inicializado }",
+        "Variable añadida a la tabla de simbolos { z - No inicializado }",
+        "Tabla de simbolos { 'variable' -> x ;; 'Valor' -> 8;; 'dType' -> Int }",
+        "Tabla de simbolos { 'variable' -> y ;; 'Valor' -> 6;; 'dType' -> Int }",
+        "Tabla de simbolos { 'variable' -> z ;; 'Valor' -> 3.3;; 'dType' -> Float }",
+        "Tabla de simbolos { 'variable' -> w ;; 'Valor' -> false;; 'dType' -> Bool }",
+        "Tabla de simbolos { 'variable' -> a ;; 'Valor' -> 18;; 'dType' -> Int }",
+        "Tabla de simbolos { 'variable' -> a ;; 'Valor' -> 9;; 'dType' -> Int }",
+        "Tabla de simbolos { 'variable' -> y ;; 'Valor' -> 5;; 'dType' -> Int }",
+        "Tabla de simbolos { 'variable' -> x ;; 'Valor' -> 10;; 'dType' -> Int }",
+        "Tabla de simbolos { 'variable' -> a ;; 'Valor' -> 11;; 'dType' -> Int }",
+        "Tabla de simbolos { 'variable' -> y ;; 'Valor' -> 50;; 'dType' -> Int }",
+        "Tabla de simbolos { 'variable' -> w ;; 'Valor' -> true;; 'dType' -> Bool }",
+        "Tabla de simbolos { 'variable' -> y ;; 'Valor' -> 49;; 'dType' -> Int }"
+    ],
+    "Errores": [
+        "No es un booleano",
+        "No es Int(10,8)"
+    ],
+    "Code": [
+        "(asn,8,x,_)",
+        "(asn,6,y,_)",
+        "(asn,3.3,z,_)",
+        "(asn,false,w,_)",
+        "(asn,2,w,_)",
+        "(asn,3.3,a,_)",
+        "(add,x,y,t1)",
+        "(wri,t1,_,_)",
+        "(mul,6,3,t2)",
+        "(asn,t2,a,_)",
+        "(div,a,2,t3)",
+        "(asn,t3,a,_)",
+        "(lt,x,10,t4)",
+        "(eq,y,6,t5)",
+        "(or,t4,t5,t6)",
+        "(if_f,t6,L1,_)",
+        "(sub,y,1,t7)",
+        "(asn,t7,y,_)",
+        "(add,x,2,t8)",
+        "(asn,t8,x,_)",
+        "(label,L2,_,_)",
+        "(geq,y,0,t9)",
+        "(eq,a,11,t10)",
+        "(and,t9,t10,t11)",
+        "(if_f,t11,L3,_)",
+        "(add,a,2,t12)",
+        "(asn,t12,a,_)",
+        "(mul,10,5,t13)",
+        "(asn,t13,y,_)",
+        "(asn,true,w,_)",
+        "(goto,L2,_,_)",
+        "(label,L3,_,_)",
+        "(goto,L4,_,_)",
+        "(label,L1,_,_)",
+        "(label,L4,_,_)",
+        "(label,L5,_,_)",
+        "(sub,y,1,t14)",
+        "(asn,t14,y,_)",
+        "(geq,y,3,t15)",
+        "(if_f,t15,L6,_)",
+        "(goto,L5,_,_)",
+        "(label,L6,_,_)",
+        "(halt,_,_,_)"
+    ],
+    "Tree": {
+        "TokenType": {
+            "TypeLexema": 1,
+            "Lexema": "program",
+            "NumFila": 1,
+            "NumCol": 8
+        },
+        "Dtype": 0,
+        "Izq": {
+            "TokenType": {
+                "TypeLexema": 11,
+                "Lexema": "int",
+                "NumFila": 2,
+                "NumCol": 4
+            },
+            "Dtype": 11,
+            "Med": {
+                "TokenType": {
+                    "TypeLexema": 35,
+                    "Lexema": "x",
+                    "NumFila": 2,
+                    "NumCol": 7
+                },
+                "Dtype": 11,
+                "Med": {
+                    "TokenType": {
+                        "TypeLexema": 35,
+                        "Lexema": "y",
+                        "NumFila": 2,
+                        "NumCol": 11
+                    },
+                    "Dtype": 11,
+                    "Med": {
+                        "TokenType": {
+                            "TypeLexema": 35,
+                            "Lexema": "a",
+                            "NumFila": 2,
+                            "NumCol": 15
+                        },
+                        "Dtype": 11
+                    }
+                }
+            },
+            "Bro": {
+                "TokenType": {
+                    "TypeLexema": 12,
+                    "Lexema": "bool",
+                    "NumFila": 3,
+                    "NumCol": 5
+                },
+                "Dtype": 12,
+                "Med": {
+                    "TokenType": {
+                        "TypeLexema": 35,
+                        "Lexema": "w",
+                        "NumFila": 3,
+                        "NumCol": 8
+                    },
+                    "Dtype": 12
+                },
+                "Bro": {
+                    "TokenType": {
+                        "TypeLexema": 10,
+                        "Lexema": "float",
+                        "NumFila": 4,
+                        "NumCol": 6
+                    },
+                    "Dtype": 10,
+                    "Med": {
+                        "TokenType": {
+                            "TypeLexema": 35,
+                            "Lexema": "z",
+                            "NumFila": 4,
+                            "NumCol": 9
+                        },
+                        "Dtype": 10
+                    }
+                }
+            }
+        },
+        "Der": {
+            "TokenType": {
+                "TypeLexema": 27,
+                "Lexema": "=",
+                "NumFila": 5,
+                "NumCol": 4
+            },
+            "Dtype": 11,
+            "Izq": {
+                "TokenType": {
+                    "TypeLexema": 35,
+                    "Lexema": "x",
+                    "NumFila": 5,
+                    "NumCol": 2
+                },
+                "Dtype": 11
+            },
+            "Der": {
+                "TokenType": {
+                    "TypeLexema": 36,
+                    "Lexema": "8",
+                    "NumFila": 5,
+                    "NumCol": 6
+                },
+                "Dtype": 11,
+                "Name": "8"
+            },
+            "Bro": {
+                "TokenType": {
+                    "TypeLexema": 27,
+                    "Lexema": "=",
+                    "NumFila": 6,
+                    "NumCol": 4
+                },
+                "Dtype": 11,
+                "Izq": {
+                    "TokenType": {
+                        "TypeLexema": 35,
+                        "Lexema": "y",
+                        "NumFila": 6,
+                        "NumCol": 2
+                    },
+                    "Dtype": 11
+                },
+                "Der": {
+                    "TokenType": {
+                        "TypeLexema": 36,
+                        "Lexema": "6",
+                        "NumFila": 6,
+                        "NumCol": 6
+                    },
+                    "Dtype": 11,
+                    "Name": "6"
+                },
+                "Bro": {
+                    "TokenType": {
+                        "TypeLexema": 27,
+                        "Lexema": "=",
+                        "NumFila": 7,
+                        "NumCol": 4
+                    },
+                    "Dtype": 10,
+                    "Izq": {
+                        "TokenType": {
+                            "TypeLexema": 35,
+                            "Lexema": "z",
+                            "NumFila": 7,
+                            "NumCol": 2
+                        },
+                        "Dtype": 10
+                    },
+                    "Der": {
+                        "TokenType": {
+                            "TypeLexema": 37,
+                            "Lexema": "3.3",
+                            "NumFila": 7,
+                            "NumCol": 8
+                        },
+                        "Dtype": 10,
+                        "Name": "3.3"
+                    },
+                    "Bro": {
+                        "TokenType": {
+                            "TypeLexema": 27,
+                            "Lexema": "=",
+                            "NumFila": 8,
+                            "NumCol": 4
+                        },
+                        "Dtype": 12,
+                        "Izq": {
+                            "TokenType": {
+                                "TypeLexema": 35,
+                                "Lexema": "w",
+                                "NumFila": 8,
+                                "NumCol": 2
+                            },
+                            "Dtype": 12
+                        },
+                        "Der": {
+                            "TokenType": {
+                                "TypeLexema": 39,
+                                "Lexema": "false",
+                                "NumFila": 8,
+                                "NumCol": 10
+                            },
+                            "Dtype": 12
+                        },
+                        "Bro": {
+                            "TokenType": {
+                                "TypeLexema": 27,
+                                "Lexema": "=",
+                                "NumFila": 9,
+                                "NumCol": 4
+                            },
+                            "Dtype": 0,
+                            "Izq": {
+                                "TokenType": {
+                                    "TypeLexema": 35,
+                                    "Lexema": "w",
+                                    "NumFila": 9,
+                                    "NumCol": 2
+                                },
+                                "Dtype": 0
+                            },
+                            "Der": {
+                                "TokenType": {
+                                    "TypeLexema": 36,
+                                    "Lexema": "2",
+                                    "NumFila": 9,
+                                    "NumCol": 6
+                                },
+                                "Dtype": 11
+                            },
+                            "Bro": {
+                                "TokenType": {
+                                    "TypeLexema": 27,
+                                    "Lexema": "=",
+                                    "NumFila": 10,
+                                    "NumCol": 4
+                                },
+                                "Dtype": 0,
+                                "Izq": {
+                                    "TokenType": {
+                                        "TypeLexema": 35,
+                                        "Lexema": "a",
+                                        "NumFila": 10,
+                                        "NumCol": 2
+                                    },
+                                    "Dtype": 0
+                                },
+                                "Der": {
+                                    "TokenType": {
+                                        "TypeLexema": 37,
+                                        "Lexema": "3.3",
+                                        "NumFila": 10,
+                                        "NumCol": 8
+                                    },
+                                    "Dtype": 10
+                                },
+                                "Bro": {
+                                    "TokenType": {
+                                        "TypeLexema": 9,
+                                        "Lexema": "write",
+                                        "NumFila": 12,
+                                        "NumCol": 6
+                                    },
+                                    "Dtype": 0,
+                                    "Med": {
+                                        "TokenType": {
+                                            "TypeLexema": 16,
+                                            "Lexema": "+",
+                                            "NumFila": 12,
+                                            "NumCol": 10
+                                        },
+                                        "Dtype": 0,
+                                        "Izq": {
+                                            "TokenType": {
+                                                "TypeLexema": 35,
+                                                "Lexema": "x",
+                                                "NumFila": 12,
+                                                "NumCol": 9
+                                            },
+                                            "Dtype": 0
+                                        },
+                                        "Der": {
+                                            "TokenType": {
+                                                "TypeLexema": 35,
+                                                "Lexema": "y",
+                                                "NumFila": 12,
+                                                "NumCol": 12
+                                            },
+                                            "Dtype": 0
+                                        }
+                                    },
+                                    "Bro": {
+                                        "TokenType": {
+                                            "TypeLexema": 27,
+                                            "Lexema": "=",
+                                            "NumFila": 13,
+                                            "NumCol": 4
+                                        },
+                                        "Dtype": 11,
+                                        "Izq": {
+                                            "TokenType": {
+                                                "TypeLexema": 35,
+                                                "Lexema": "a",
+                                                "NumFila": 13,
+                                                "NumCol": 2
+                                            },
+                                            "Dtype": 11
+                                        },
+                                        "Der": {
+                                            "TokenType": {
+                                                "TypeLexema": 18,
+                                                "Lexema": "*",
+                                                "NumFila": 13,
+                                                "NumCol": 7
+                                            },
+                                            "Dtype": 0,
+                                            "Name": "18",
+                                            "Izq": {
+                                                "TokenType": {
+                                                    "TypeLexema": 36,
+                                                    "Lexema": "6",
+                                                    "NumFila": 13,
+                                                    "NumCol": 6
+                                                },
+                                                "Dtype": 11,
+                                                "Name": "6"
+                                            },
+                                            "Der": {
+                                                "TokenType": {
+                                                    "TypeLexema": 36,
+                                                    "Lexema": "3",
+                                                    "NumFila": 13,
+                                                    "NumCol": 9
+                                                },
+                                                "Dtype": 11,
+                                                "Name": "3"
+                                            }
+                                        },
+                                        "Bro": {
+                                            "TokenType": {
+                                                "TypeLexema": 27,
+                                                "Lexema": "=",
+                                                "NumFila": 14,
+                                                "NumCol": 4
+                                            },
+                                            "Dtype": 11,
+                                            "Izq": {
+                                                "TokenType": {
+                                                    "TypeLexema": 35,
+                                                    "Lexema": "a",
+                                                    "NumFila": 14,
+                                                    "NumCol": 2
+                                                },
+                                                "Dtype": 11
+                                            },
+                                            "Der": {
+                                                "TokenType": {
+                                                    "TypeLexema": 19,
+                                                    "Lexema": "/",
+                                                    "NumFila": 14,
+                                                    "NumCol": 8
+                                                },
+                                                "Dtype": 0,
+                                                "Name": "9",
+                                                "Izq": {
+                                                    "TokenType": {
+                                                        "TypeLexema": 35,
+                                                        "Lexema": "a",
+                                                        "NumFila": 14,
+                                                        "NumCol": 6
+                                                    },
+                                                    "Dtype": 0,
+                                                    "Name": "18"
+                                                },
+                                                "Der": {
+                                                    "TokenType": {
+                                                        "TypeLexema": 36,
+                                                        "Lexema": "2",
+                                                        "NumFila": 14,
+                                                        "NumCol": 10
+                                                    },
+                                                    "Dtype": 11,
+                                                    "Name": "2"
+                                                }
+                                            },
+                                            "Bro": {
+                                                "TokenType": {
+                                                    "TypeLexema": 2,
+                                                    "Lexema": "if",
+                                                    "NumFila": 16,
+                                                    "NumCol": 3
+                                                },
+                                                "Dtype": 0,
+                                                "Izq": {
+                                                    "TokenType": {
+                                                        "TypeLexema": 15,
+                                                        "Lexema": "or",
+                                                        "NumFila": 16,
+                                                        "NumCol": 16
+                                                    },
+                                                    "Dtype": 0,
+                                                    "Izq": {
+                                                        "TokenType": {
+                                                            "TypeLexema": 21,
+                                                            "Lexema": "<",
+                                                            "NumFila": 16,
+                                                            "NumCol": 9
+                                                        },
+                                                        "Dtype": 0,
+                                                        "Izq": {
+                                                            "TokenType": {
+                                                                "TypeLexema": 35,
+                                                                "Lexema": "x",
+                                                                "NumFila": 16,
+                                                                "NumCol": 7
+                                                            },
+                                                            "Dtype": 0,
+                                                            "Name": "8"
+                                                        },
+                                                        "Der": {
+                                                            "TokenType": {
+                                                                "TypeLexema": 36,
+                                                                "Lexema": "10",
+                                                                "NumFila": 16,
+                                                                "NumCol": 12
+                                                            },
+                                                            "Dtype": 11,
+                                                            "Name": "10.0"
+                                                        }
+                                                    },
+                                                    "Der": {
+                                                        "TokenType": {
+                                                            "TypeLexema": 25,
+                                                            "Lexema": "==",
+                                                            "NumFila": 16,
+                                                            "NumCol": 21
+                                                        },
+                                                        "Dtype": 0,
+                                                        "Izq": {
+                                                            "TokenType": {
+                                                                "TypeLexema": 35,
+                                                                "Lexema": "y",
+                                                                "NumFila": 16,
+                                                                "NumCol": 19
+                                                            },
+                                                            "Dtype": 0,
+                                                            "Name": "6"
+                                                        },
+                                                        "Der": {
+                                                            "TokenType": {
+                                                                "TypeLexema": 36,
+                                                                "Lexema": "6",
+                                                                "NumFila": 16,
+                                                                "NumCol": 23
+                                                            },
+                                                            "Dtype": 11,
+                                                            "Name": "6.0"
+                                                        }
+                                                    }
+                                                },
+                                                "Med": {
+                                                    "TokenType": {
+                                                        "TypeLexema": 27,
+                                                        "Lexema": "=",
+                                                        "NumFila": 17,
+                                                        "NumCol": 4
+                                                    },
+                                                    "Dtype": 11,
+                                                    "Izq": {
+                                                        "TokenType": {
+                                                            "TypeLexema": 35,
+                                                            "Lexema": "y",
+                                                            "NumFila": 17,
+                                                            "NumCol": 2
+                                                        },
+                                                        "Dtype": 11
+                                                    },
+                                                    "Der": {
+                                                        "TokenType": {
+                                                            "TypeLexema": 17,
+                                                            "Lexema": "-",
+                                                            "NumFila": 17,
+                                                            "NumCol": 7
+                                                        },
+                                                        "Dtype": 0,
+                                                        "Name": "5",
+                                                        "Izq": {
+                                                            "TokenType": {
+                                                                "TypeLexema": 35,
+                                                                "Lexema": "y",
+                                                                "NumFila": 17,
+                                                                "NumCol": 6
+                                                            },
+                                                            "Dtype": 0,
+                                                            "Name": "6"
+                                                        },
+                                                        "Der": {
+                                                            "TokenType": {
+                                                                "TypeLexema": 36,
+                                                                "Lexema": "1",
+                                                                "NumFila": 17,
+                                                                "NumCol": 9
+                                                            },
+                                                            "Dtype": 11,
+                                                            "Name": "1"
+                                                        }
+                                                    },
+                                                    "Bro": {
+                                                        "TokenType": {
+                                                            "TypeLexema": 27,
+                                                            "Lexema": "=",
+                                                            "NumFila": 18,
+                                                            "NumCol": 4
+                                                        },
+                                                        "Dtype": 11,
+                                                        "Izq": {
+                                                            "TokenType": {
+                                                                "TypeLexema": 35,
+                                                                "Lexema": "x",
+                                                                "NumFila": 18,
+                                                                "NumCol": 2
+                                                            },
+                                                            "Dtype": 11
+                                                        },
+                                                        "Der": {
+                                                            "TokenType": {
+                                                                "TypeLexema": 16,
+                                                                "Lexema": "+",
+                                                                "NumFila": 18,
+                                                                "NumCol": 7
+                                                            },
+                                                            "Dtype": 0,
+                                                            "Name": "10",
+                                                            "Izq": {
+                                                                "TokenType": {
+                                                                    "TypeLexema": 35,
+                                                                    "Lexema": "x",
+                                                                    "NumFila": 18,
+                                                                    "NumCol": 6
+                                                                },
+                                                                "Dtype": 0,
+                                                                "Name": "8"
+                                                            },
+                                                            "Der": {
+                                                                "TokenType": {
+                                                                    "TypeLexema": 36,
+                                                                    "Lexema": "2",
+                                                                    "NumFila": 18,
+                                                                    "NumCol": 9
+                                                                },
+                                                                "Dtype": 11,
+                                                                "Name": "2"
+                                                            }
+                                                        },
+                                                        "Bro": {
+                                                            "TokenType": {
+                                                                "TypeLexema": 7,
+                                                                "Lexema": "while",
+                                                                "NumFila": 19,
+                                                                "NumCol": 6
+                                                            },
+                                                            "Dtype": 0,
+                                                            "Izq": {
+                                                                "TokenType": {
+                                                                    "TypeLexema": 14,
+                                                                    "Lexema": "and",
+                                                                    "NumFila": 19,
+                                                                    "NumCol": 20
+                                                                },
+                                                                "Dtype": 0,
+                                                                "Izq": {
+                                                                    "TokenType": {
+                                                                        "TypeLexema": 24,
+                                                                        "Lexema": ">=",
+                                                                        "NumFila": 19,
+                                                                        "NumCol": 13
+                                                                    },
+                                                                    "Dtype": 0,
+                                                                    "Izq": {
+                                                                        "TokenType": {
+                                                                            "TypeLexema": 35,
+                                                                            "Lexema": "y",
+                                                                            "NumFila": 19,
+                                                                            "NumCol": 11
+                                                                        },
+                                                                        "Dtype": 0,
+                                                                        "Name": "5"
+                                                                    },
+                                                                    "Der": {
+                                                                        "TokenType": {
+                                                                            "TypeLexema": 36,
+                                                                            "Lexema": "0",
+                                                                            "NumFila": 19,
+                                                                            "NumCol": 15
+                                                                        },
+                                                                        "Dtype": 11,
+                                                                        "Name": "0.0"
+                                                                    }
+                                                                },
+                                                                "Der": {
+                                                                    "TokenType": {
+                                                                        "TypeLexema": 25,
+                                                                        "Lexema": "==",
+                                                                        "NumFila": 19,
+                                                                        "NumCol": 25
+                                                                    },
+                                                                    "Dtype": 0,
+                                                                    "Izq": {
+                                                                        "TokenType": {
+                                                                            "TypeLexema": 35,
+                                                                            "Lexema": "a",
+                                                                            "NumFila": 19,
+                                                                            "NumCol": 23
+                                                                        },
+                                                                        "Dtype": 0,
+                                                                        "Name": "9"
+                                                                    },
+                                                                    "Der": {
+                                                                        "TokenType": {
+                                                                            "TypeLexema": 36,
+                                                                            "Lexema": "11",
+                                                                            "NumFila": 19,
+                                                                            "NumCol": 28
+                                                                        },
+                                                                        "Dtype": 11,
+                                                                        "Name": "11.0"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "Med": {
+                                                                "TokenType": {
+                                                                    "TypeLexema": 27,
+                                                                    "Lexema": "=",
+                                                                    "NumFila": 20,
+                                                                    "NumCol": 5
+                                                                },
+                                                                "Dtype": 11,
+                                                                "Izq": {
+                                                                    "TokenType": {
+                                                                        "TypeLexema": 35,
+                                                                        "Lexema": "a",
+                                                                        "NumFila": 20,
+                                                                        "NumCol": 3
+                                                                    },
+                                                                    "Dtype": 11
+                                                                },
+                                                                "Der": {
+                                                                    "TokenType": {
+                                                                        "TypeLexema": 16,
+                                                                        "Lexema": "+",
+                                                                        "NumFila": 20,
+                                                                        "NumCol": 8
+                                                                    },
+                                                                    "Dtype": 0,
+                                                                    "Name": "11",
+                                                                    "Izq": {
+                                                                        "TokenType": {
+                                                                            "TypeLexema": 35,
+                                                                            "Lexema": "a",
+                                                                            "NumFila": 20,
+                                                                            "NumCol": 7
+                                                                        },
+                                                                        "Dtype": 0,
+                                                                        "Name": "9"
+                                                                    },
+                                                                    "Der": {
+                                                                        "TokenType": {
+                                                                            "TypeLexema": 36,
+                                                                            "Lexema": "2",
+                                                                            "NumFila": 20,
+                                                                            "NumCol": 10
+                                                                        },
+                                                                        "Dtype": 11,
+                                                                        "Name": "2"
+                                                                    }
+                                                                },
+                                                                "Bro": {
+                                                                    "TokenType": {
+                                                                        "TypeLexema": 27,
+                                                                        "Lexema": "=",
+                                                                        "NumFila": 21,
+                                                                        "NumCol": 5
+                                                                    },
+                                                                    "Dtype": 11,
+                                                                    "Izq": {
+                                                                        "TokenType": {
+                                                                            "TypeLexema": 35,
+                                                                            "Lexema": "y",
+                                                                            "NumFila": 21,
+                                                                            "NumCol": 3
+                                                                        },
+                                                                        "Dtype": 11
+                                                                    },
+                                                                    "Der": {
+                                                                        "TokenType": {
+                                                                            "TypeLexema": 18,
+                                                                            "Lexema": "*",
+                                                                            "NumFila": 21,
+                                                                            "NumCol": 10
+                                                                        },
+                                                                        "Dtype": 0,
+                                                                        "Name": "50",
+                                                                        "Izq": {
+                                                                            "TokenType": {
+                                                                                "TypeLexema": 36,
+                                                                                "Lexema": "10",
+                                                                                "NumFila": 21,
+                                                                                "NumCol": 9
+                                                                            },
+                                                                            "Dtype": 11,
+                                                                            "Name": "10"
+                                                                        },
+                                                                        "Der": {
+                                                                            "TokenType": {
+                                                                                "TypeLexema": 36,
+                                                                                "Lexema": "5",
+                                                                                "NumFila": 21,
+                                                                                "NumCol": 12
+                                                                            },
+                                                                            "Dtype": 11,
+                                                                            "Name": "5"
+                                                                        }
+                                                                    },
+                                                                    "Bro": {
+                                                                        "TokenType": {
+                                                                            "TypeLexema": 27,
+                                                                            "Lexema": "=",
+                                                                            "NumFila": 22,
+                                                                            "NumCol": 5
+                                                                        },
+                                                                        "Dtype": 12,
+                                                                        "Izq": {
+                                                                            "TokenType": {
+                                                                                "TypeLexema": 35,
+                                                                                "Lexema": "w",
+                                                                                "NumFila": 22,
+                                                                                "NumCol": 3
+                                                                            },
+                                                                            "Dtype": 12
+                                                                        },
+                                                                        "Der": {
+                                                                            "TokenType": {
+                                                                                "TypeLexema": 38,
+                                                                                "Lexema": "true",
+                                                                                "NumFila": 22,
+                                                                                "NumCol": 10
+                                                                            },
+                                                                            "Dtype": 12
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                },
+                                                "Bro": {
+                                                    "TokenType": {
+                                                        "TypeLexema": 5,
+                                                        "Lexema": "do",
+                                                        "NumFila": 27,
+                                                        "NumCol": 3
+                                                    },
+                                                    "Dtype": 0,
+                                                    "Izq": {
+                                                        "TokenType": {
+                                                            "TypeLexema": 27,
+                                                            "Lexema": "=",
+                                                            "NumFila": 28,
+                                                            "NumCol": 4
+                                                        },
+                                                        "Dtype": 11,
+                                                        "Izq": {
+                                                            "TokenType": {
+                                                                "TypeLexema": 35,
+                                                                "Lexema": "y",
+                                                                "NumFila": 28,
+                                                                "NumCol": 2
+                                                            },
+                                                            "Dtype": 11
+                                                        },
+                                                        "Der": {
+                                                            "TokenType": {
+                                                                "TypeLexema": 17,
+                                                                "Lexema": "-",
+                                                                "NumFila": 28,
+                                                                "NumCol": 7
+                                                            },
+                                                            "Dtype": 0,
+                                                            "Name": "49",
+                                                            "Izq": {
+                                                                "TokenType": {
+                                                                    "TypeLexema": 35,
+                                                                    "Lexema": "y",
+                                                                    "NumFila": 28,
+                                                                    "NumCol": 6
+                                                                },
+                                                                "Dtype": 0,
+                                                                "Name": "50"
+                                                            },
+                                                            "Der": {
+                                                                "TokenType": {
+                                                                    "TypeLexema": 36,
+                                                                    "Lexema": "1",
+                                                                    "NumFila": 28,
+                                                                    "NumCol": 9
+                                                                },
+                                                                "Dtype": 11,
+                                                                "Name": "1"
+                                                            }
+                                                        }
+                                                    },
+                                                    "Med": {
+                                                        "TokenType": {
+                                                            "TypeLexema": 24,
+                                                            "Lexema": ">=",
+                                                            "NumFila": 29,
+                                                            "NumCol": 14
+                                                        },
+                                                        "Dtype": 0,
+                                                        "Izq": {
+                                                            "TokenType": {
+                                                                "TypeLexema": 35,
+                                                                "Lexema": "y",
+                                                                "NumFila": 29,
+                                                                "NumCol": 12
+                                                            },
+                                                            "Dtype": 0,
+                                                            "Name": "50"
+                                                        },
+                                                        "Der": {
+                                                            "TokenType": {
+                                                                "TypeLexema": 36,
+                                                                "Lexema": "3",
+                                                                "NumFila": 29,
+                                                                "NumCol": 16
+                                                            },
+                                                            "Dtype": 11,
+                                                            "Name": "3.0"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

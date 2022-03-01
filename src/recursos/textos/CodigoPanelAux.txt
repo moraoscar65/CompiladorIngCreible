@@ -1,0 +1,14 @@
+program
+{
+int a=0;
+bool b=false;
+
+if (a == 1 or b != 0){
+	a = 1;	
+}else{
+ b = 0;
+}fi
+$
+int total = 3;
+total = total + 2;
+}
